@@ -9,7 +9,6 @@ set tabstop=8
 set shiftwidth=8
 
 nmap <F2> :NERDTreeToggle<CR>
-nmap <F5> :tabn<CR>
-nmap <F6> :tabp<CR>
-
-" vim clang_complete.vmb -c 'so %' -c 'q'
+nmap <C-l> :tabn<CR>
+nmap <C-h> :tabp<CR>
+nmap <C-n> :noh<CR>

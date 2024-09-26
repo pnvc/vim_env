@@ -7,6 +7,8 @@ set autoindent
 set noexpandtab
 set tabstop=8
 set shiftwidth=8
+set noundofile
+set backupdir=~/.vimbak
 
 " nerd tree
 nmap <F2> :NERDTreeToggle<CR>

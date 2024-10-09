@@ -1,4 +1,6 @@
 " general
+color ron
+syntax on
 set number
 filetype plugin indent on
 

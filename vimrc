@@ -1,7 +1,9 @@
 " general
 color ron
 syntax on
+set relativenumber
 set number
+set cc=81
 filetype plugin indent on
 
 " TAB

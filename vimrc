@@ -20,5 +20,5 @@ nmap <F4> :tabn<CR>
 nmap <F3> :tabp<CR>
 nmap <C-n> :noh<CR>
 nmap <F5> :term gcc %<CR>
-nmap <F6> :term ./a.out<CR>
-nmap <F7> :q<CR>
+nmap <F6> :q<CR>
+nmap <F7> :term ./a.out<CR>

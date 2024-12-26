@@ -22,4 +22,4 @@ nmap <C-n> :noh<CR>
 nmap <F5> :term gcc -g %<CR>
 nmap <F6> :q<CR>
 nmap <F7> :term ./a.out<CR>
-nmap <F8> :term gdb ./a.out
+nmap <F8> :term gdb ./a.out<CR>

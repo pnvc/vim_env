@@ -1,0 +1,7 @@
+here is nerdtree and omnicpp; vimrc includes some shortcuts and settings to work
+with c/c++
+
+place vimrc as $HOME/.vimrc
+place other files into $HOME/.vim/
+create $HOME/.vimbak
+done

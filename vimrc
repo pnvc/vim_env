@@ -25,9 +25,10 @@ nmap <F7> :term ./a.out<CR>
 nmap <F8> :term gdb ./a.out<CR>
 
 " omni complete
-nmap <C-F11> :!ctags -R --c++-kinds=+p --sort=yes --c-kinds=+p --fields=+iaS --extras=+q --languages=c++,c  .<CR>
+" after C-F11 move tags into $HOME/.vim/tags
+nmap <C-F11> :!ctags -R --c++-kinds=+plL --sort=yes --c-kinds=+plL --fields=+iaS --extras=+q --languages=c++,c  .<CR>
 set nocp
-set tags+=/root/.vim/tags/tags
+set tags+=/root/.vim/tags/mysys_tags
 let OmniCpp_NamespaceSearch = 1
 let OmniCpp_GlobalScopeSearch = 1
 let OmniCpp_ShowAccess = 1

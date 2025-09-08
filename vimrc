@@ -1,6 +1,5 @@
 " general
 color quiet
-syntax off
 set relativenumber
 set number
 set cc=81
@@ -14,3 +13,7 @@ set shiftwidth=8
 set noundofile
 set backupdir=~/.vimbak
 
+" color
+syntax off
+hi Normal ctermfg=DarkGrey guifg=DarkGrey
+hi Normal ctermbg=Black guibg=Black

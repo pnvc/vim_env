@@ -15,5 +15,5 @@ set backupdir=~/.vimbak
 
 " color
 syntax off
-hi Normal ctermfg=DarkGrey guifg=DarkGrey
+hi Normal ctermfg=Grey guifg=Grey
 hi Normal ctermbg=Black guibg=Black

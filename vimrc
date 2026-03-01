@@ -11,3 +11,6 @@ set syntax=off
 let loaded_matchparen = 0
 hi Normal ctermfg=Grey guifg=Grey
 hi Normal ctermbg=Black guibg=Black
+
+nnoremap <C-l> :tabn<CR><LF>
+nnoremap <C-h> :tabp<CR><LF>
